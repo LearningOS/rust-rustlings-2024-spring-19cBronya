@@ -5,8 +5,8 @@
 // Execute `rustlings hint intro2` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
 
 fn main() {
-    println!("Hello {}!");
+    // println!("Hello world!");//直接修改字符串
+    println!("Hello world!{}","world");//字符串内插
 }
