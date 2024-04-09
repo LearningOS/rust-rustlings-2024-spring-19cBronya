@@ -2,18 +2,29 @@
 //
 // Execute `rustlings hint if3` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
-
 pub fn animal_habitat(animal: &str) -> &'static str {
     let identifier = if animal == "crab" {
         1
     } else if animal == "gopher" {
-        2.0
+        2
     } else if animal == "snake" {
         3
     } else {
-        "Unknown"
+        0
+        // "Unknown"
     };
+    
+    // let mut identifier;
+
+    // if animal == "crab" {
+    //     identifier = 1;
+    // } else if animal == "gopher" {
+    //     identifier = 2;
+    // } else if animal == "snake" {
+    //     identifier = 3;
+    // } else {
+    //     identifier = 0;
+    // }
 
     // DO NOT CHANGE THIS STATEMENT BELOW
     let habitat = if identifier == 1 {
